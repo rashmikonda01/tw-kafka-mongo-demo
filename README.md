@@ -22,8 +22,12 @@ unzip them
 Browse to installed folder
 
 **cd kafka_2.13-3.0.0 **
+
 <cmd to run Zk>  **bin/zookeeper-server-start.sh config/zookeeper.properties**
+  
 <cmd to run kafka broker> **bin/kafka-server-start.sh ../config/server.properties**
+  
 Browse to mongo folder (/usr/local/Cellar/mongodb-community@4.0/4.0.27/) - installed via brew
+  
 <cmd to run mongo> **./bin/mongo**
 
