@@ -10,12 +10,12 @@ from tweepy.streaming import StreamListener
 import pykafka
 from textblob import TextBlob
 
-TWITTER_CONSUMER_KEY = '#Paste your keys ' #5DJ74EvnLhAV6ZFRc6XzSJQBf'
-TWITTER_CONSUMER_SECRET = '#Paste your keys ' #SDGqSLecCHOLPTfTZE7ZaggjQe07USEVDgSsIsBA1K4c68CITf'
-TWITTER_ACCESS_TOKEN = '#Paste your keys ' #112672182-YwQ4I5HQIoMVQPBaIPTqzwJ6PLH8xKWpf9D68X1d'
-TWITTER_TOKEN_SECRET = '#Paste your keys ' #7CdKvGYsYmXRlBnYel4Wm1vqyd2k6ea35uwwlsMn35jub'
+TWITTER_CONSUMER_KEY = '#Paste your keys ' 
+TWITTER_CONSUMER_SECRET = '#Paste your keys ' 
+TWITTER_ACCESS_TOKEN = '#Paste your keys '
+TWITTER_TOKEN_SECRET = '#Paste your keys ' 
 words_to_track = ['olympics', 'ipl',
-                  'sports']  # ['bitcoin', 'ethereum', 'litecoin', 'denarius', '-filter:links', '-filter:retweets']
+                  'sports'] 
 topic = 'tweets-1'
 
 
